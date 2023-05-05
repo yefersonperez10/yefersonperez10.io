@@ -1,0 +1,64 @@
+*{
+    background-color: rgb(179, 179, 179);
+	margin: 0%;
+	padding: 0%;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+.contenedordepuertas{
+display:inline-flex;
+background-color: rgb(51, 51, 51);
+width: 90%;
+margin: 22px;
+border-radius: 10px;
+}
+
+.puerta1{
+    margin: 10px;
+    display: flex;
+    position: relative;
+    width: 300px;
+    height: 500px;
+    border-radius: 5px;
+    background-image:linear-gradient(to bottom, rgba(167, 149, 149, 0.24), rgba(168, 168, 168, 0.658)),
+        url("/galerias/puertas/p1\ \(1\).jpg");
+    background-size: 100%;
+    cursor: pointer;
+
+}
+.puerta2{
+    margin: 10px;
+    display: flex;
+    position: relative;
+    width: 300px;
+    height: 500px;
+    border-radius: 5px;
+    background-image:linear-gradient(to bottom, rgba(167, 149, 149, 0.24), rgba(168, 168, 168, 0.658)),
+        url("/galerias/puertas/p2.jpg");
+    background-size: 100%;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+.titulo{
+    font-size: 4em;
+    position:relative;
+
+}
+
+.pr1{
+    position: absolute;
+    
+}
+.pr2{
+    position: absolute;
+    
+}
